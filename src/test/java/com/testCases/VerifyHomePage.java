@@ -16,6 +16,7 @@ public class VerifyHomePage {
 	WebDriver driver;
 	@BeforeMethod
 	public void setUp(){
+		//zzzzzz
 		 driver = BrowserFactory.getBrowser("firefox");
 		 driver.get(DataProviderFactory.getConfig().getUrl()); 
 	}
