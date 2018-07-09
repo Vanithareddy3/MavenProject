@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PortalValidation]">
+  <test name="SmokeScenario(failed)">
+    <classes>
+      <class name="com.testCases.VerifyLoginPageWithReports">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLoginPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testCases.VerifyLoginPageWithReports -->
+      <class name="com.testCases.VerifyLoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testCases.VerifyLoginPage -->
+      <class name="com.testCases.VerifyHomePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testCases.VerifyHomePage -->
+    </classes>
+  </test> <!-- SmokeScenario(failed) -->
+</suite> <!-- Failed suite [PortalValidation] -->
